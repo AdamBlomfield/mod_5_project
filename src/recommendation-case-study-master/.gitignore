@@ -1,13 +1,17 @@
+
+# Secret test data
+test.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -19,9 +23,11 @@ lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -42,51 +48,61 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
+.hypothesis/
+.pytest_cache/
 
 # Translations
 *.mo
 *.pot
 
-# Logs:
+# Django stuff:
 *.log
-.install_log
+local_settings.py
+db.sqlite3
 
-# Sphinx documentation - place holder for future use
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
 
 # PyBuilder
 target/
 
-# DotEnv configuration - DO NOT TRACK API keys, etc.
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Database
-*.db
-*.rdb
-*.sqlite
+# Spyder project settings
+.spyderproject
+.spyproject
 
-# Pycharm
-.idea
+# Rope project settings
+.ropeproject
 
-# VS Code
-.vscode/
+# mkdocs documentation
+/site
 
-# Jupyter NB Checkpoints
-.ipynb_checkpoints/
-
-# exclude data from source control by default
-#/data/
-/data/raw/
-#/data/processed/
-
-# exclude archives by default
-/references/archive/
-
-# Mac OS-specific storage files
-.DS_Store
-
-# vim
-*.swp
-*.swo
-
-# Mypy cache
+# mypy
 .mypy_cache/
