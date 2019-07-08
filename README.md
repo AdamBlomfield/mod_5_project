@@ -26,7 +26,7 @@ The model uses grid search to tune the model and find out how many branches and 
 
 The PR curve for this model shows how the precision and recall scores change as we adjust the probability threshold for a positive identification. The precision score dips when the number of false positives increases and the recall score dips when the number of false negatives increases. The more the curve hugs the upper right corner, the better the model does at correctly identifying true positives,  minimizing both false positives and false negatives.
 
-![precision-recall-curve]('/figures/pr_curve.png')
+[precision-recall-curve](reports/figures/pr_curve.png)
 
 
 
