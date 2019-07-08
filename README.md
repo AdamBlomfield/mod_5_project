@@ -12,7 +12,7 @@ Exploratory Data Analysis: Time is one of the more interesting variables.The two
 
 The amount of fraudulent transactions were skewed towards low transaction amounts. Of the 492 fraudulent transactions, 25 had an amount of zero and an additional 41 less than one Euro. The chart below shows the pattern of transactions. 
 
-![transaction-patterns](reports/figures/fraud_amounts.png')
+![transaction-patterns](reports/figures/fraud_amounts.png)
 
 Correlations and a heat map visualization were plotted. However, no correlations were discovered, possibly because the entire data set had already been transformed with PCA.
 
