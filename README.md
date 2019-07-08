@@ -12,6 +12,8 @@ Exploratory Data Analysis: Time is one of the more interesting variables.The two
 
 The amount of fraudulent transactions were skewed towards low transaction amounts. Of the 492 fraudulent transactions, 25 had an amount of zero and an additional 41 less than one Euro. The chart below shows the pattern of transactions. 
 
+![transaction-patterns](link-to-image)
+
 Correlations and a heat map visualization were plotted. However, no correlations were discovered, possibly because the entire data set had already been transformed with PCA.
 
 The Models Not Taken: The Kaggle description included several articles which were reviewed. They mentioned three machine learning models as most promising: logistic regression, SVM, and random forests. All three were tried. Logistic regression and SVM produced poor results; however, random forests produced very promising results. 
@@ -24,6 +26,7 @@ The model uses grid search to tune the model and find out how many branches and 
 
 The PR curve for this model shows how the precision and recall scores change as we adjust the probability threshold for a positive identification. The precision score dips when the number of false positives increases and the recall score dips when the number of false negatives increases. The more the curve hugs the upper right corner, the better the model does at correctly identifying true positives,  minimizing both false positives and false negatives.
 
+![precision-recall-curve](link-to-image)
 
 
 
