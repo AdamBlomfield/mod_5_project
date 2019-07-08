@@ -10,9 +10,9 @@ Data Cleaning: Fortunately, this data set did not include any nulls or missing v
 
 Exploratory Data Analysis: Time is one of the more interesting variables.The two days show a pattern of when transactions occurred. Assuming that Time began at midnight, there were some transactions until 1 am, then a significant lull until 7 am when again there is upward movement in the number of transactions. During the middle of the day the largest number of transactions occurred, then the amount declines until 1 am. 
 
-The amount of fraudulent transactions were skewed towards low transaction amounts. Of the 492 fraudulent transactions, 25 had an amount of zero and an additional 41 less than one Euro. The chart below shows the pattern of transactions. 
+The amount of fraudulent transactions were skewed towards low transaction amounts. Of the 492 fraudulent transactions, 25 had an amount of zero and an additional 41 had less than one Euro. The chart below shows the pattern of transactions. 
 
-![transaction-patterns](reports/figures/fraud_amounts.png)
+![transaction-patterns](reports/figures/fraud_amounts.pdf)
 
 Correlations and a heat map visualization were plotted. However, no correlations were discovered, possibly because the entire data set had already been transformed with PCA.
 
