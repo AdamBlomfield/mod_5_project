@@ -1,7 +1,7 @@
 
 # Catching Credit Card Fraud
 
-Authors: Kelly Epley, Adam Blomfield, and Helen Levy-Myers.
+Authors: Kelly Epley, Adam Blomfield, and Helen Levy-Myers
 
 In this project, we trained a model to label transactions as fraudulent or valid. See the folder named "final" for notebooks containing full details on our data cleaning, exploratory data analysis, and modeling, and a slide deck describing our results. 
 
